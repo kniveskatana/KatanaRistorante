@@ -10,11 +10,19 @@ span{
     background-size: cover;
     background-position: center;
     background-image: url("../Images/backgroundimg.jpg");
-    height: 100vh;
+    /* height: 100vh; */
 }
-#Restorante{
-    width: 60%;
+.pizza2{
+    height: 40%;
+    width: 95%;
+    border: 5px white;
+    border-radius:5px ;
+    box-shadow: 4px 4px 2px white ;
 }
-.try1{
-   height: 40%;
+.img1{
+    width: 30%;
+    border-radius: 5px;
+}
+.crust{
+    color: greenyellow;
 }
