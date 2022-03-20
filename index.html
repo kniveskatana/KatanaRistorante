@@ -59,7 +59,8 @@
 
         </div>
         <form>
-            <div class="row">
+            <div class="row text-white text-center">
+                <h2>Pizza Size</h2>
                 <div class="col-md-8 d-flex justify-content-evenly">
                     <div class="img1 border bg-dark">
                         <h2 class="text-white text-center">small</h2>
@@ -91,6 +92,77 @@
                     </select>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, velit odit! Suscipit praesentium consequatur
                         similique minima perferendis quidem, cupiditate sed.</p>
+                </div>
+            </div>
+            <div class="row mt-3 text-white text-center">
+                <h2>Pizza Toppings</h2>
+                <div class="col-md-8 d-flex justify-content-evenly">
+                    <div class="img1 border bg-dark">
+                        <h2 class="text-white text-center">Tomato</h2>
+                        <img src="./Images/tomatos.jpg" alt="tomato" class="pizza2">
+                        <h3 class="text-white text-center">Ksh50</h3>
+                    </div>
+            
+                    <div class="img1 border bg-dark">
+                        <h2 class="text-white text-center">Mushroom</h2>
+                        <img src="./Images/mushrooms.jpeg" alt="Mushroom" class="pizza2">
+                        <h3 class="text-white text-center">Ksh50</h3>
+                    </div>
+            
+                    <div class="img1 border bg-dark">
+                        <h2 class="text-white text-center">Ham</h2>
+                        <img src="./Images/ham.jpg" alt="ham" class="pizza2">
+                        <h3 class="text-white text-center">Ksh50</h3>
+                    </div>
+                </div>
+                <div class="col-md-3 bg-dark d-flex flex-column justify-content-evenly text-white">
+                    <h3 class="crust">Select Pizza topping</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, distinctio.</p>
+                    <label for="topping" class="crust">Choose pizza topping</label>
+                    <select class="form-select my-1" name="topping" id="topping">
+                        <option selected>choose pizza topping ...</option>
+                        <option value="tomato">Tomato</option>
+                        <option value="mroom">Mushroom</option>
+                        <option value="ham">Ham</option>
+                    </select>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, velit odit! Suscipit praesentium consequatur
+                        similique minima perferendis quidem, cupiditate sed.</p>
+                </div>
+            </div>
+            <div class="row mt-3 text-white text-center">
+                <h2>Pizza Base</h2>
+                <div class="col-md-8 d-flex justify-content-evenly text-white text-center">
+                    <div class="img1 border bg-dark">
+                        <h2 class="text-white text-center">Thin&crispy</h2>
+                        <img src="./Images/thin&crispy.jpg" alt="thin&crispy" class="pizza2">
+                        <h3 class="text-white text-center">Ksh100</h3>
+                    </div>
+            
+                    <div class="img1 border bg-dark">
+                        <h2 class="text-white text-center">Thick crust</h2>
+                        <img src="./Images/thick crust.jpg" alt="thick crust" class="pizza2">
+                        <h3 class="text-white text-center">Ksh100</h3>
+                    </div>
+            
+                    <div class="img1 border bg-dark">
+                        <h2 class="text-white text-center">Double-stack</h2>
+                        <img src="./Images/double-stack.jpg" alt="double-stack" class="pizza2">
+                        <h3 class="text-white text-center">Ksh100</h3>
+                    </div>
+                </div>
+                <div class="col-md-3 bg-dark d-flex flex-column justify-content-evenly text-white">
+                    <h3 class="crust">Select Pizza Base</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, distinctio.</p>
+                    <label for="base" class="crust">Choose pizza base</label>
+                    <select class="form-select my-1" name="base" id="base">
+                        <option selected>choose pizza base ...</option>
+                        <option value="v1">Thin&Crispy</option>
+                        <option value="v2">Thick Crust</option>
+                        <option value="v3">Double-Stack</option>
+                    </select>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, velit odit! Suscipit praesentium consequatur
+                        similique minima perferendis quidem, cupiditate sed.</p>
+                    <button class="btn w-100">Submit order</button>
                 </div>
             </div>
         </form>
