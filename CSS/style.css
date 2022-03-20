@@ -6,3 +6,15 @@
 span{
     color: yellowgreen;
 }
+#bground{
+    background-size: cover;
+    background-position: center;
+    background-image: url("../Images/backgroundimg.jpg");
+    height: 100vh;
+}
+#Restorante{
+    width: 60%;
+}
+.try1{
+   height: 40%;
+}
