@@ -55,13 +55,15 @@
                 <div class="col-md-3 d-flex flex-column align-items-center">
                     <h3>Pizza Size</h3>
                     <h2 id="text1"></h2>
+                    <p id="sizePrice"></p>
+                    
                     <label for="numero" class="crust">need more?</label>
-                    <input type="number" id="numero" class="form-control w-100">
+                    <input type="number" id="numero" class="form-control w-25" value="1">
                 </div>
                 <div class="col-md-3 d-flex align-items-center justify-content-around">
                     <div class="form-group d-flex flex-column">
                         <label class="d-none">Total</label>
-                        <button class="btn w-100 mt-4">update</button>
+                        <button class="btn w-100 mt-4" id="update1">update</button>
                     </div>
                     <div class="form-group">
                         <label for="numero1" class="crust">Total</label>
@@ -82,36 +84,39 @@
                 <div class="col-md-3 d-flex flex-column align-items-center ">
                     <h3>Pizza Toppings</h3>
                     <h2 id="text2"></h2>
-                    <label for="numero" class="crust">need more?</label>
-                    <input type="number" id="numero" class="form-control w-100">
+                    <p id="topPrice"></p>
+                    <label for="topQuantity" class="crust">need more?</label>
+                    <input type="number" id="topQuantity" class="form-control w-25" value="1">
                 </div>
                 <div class="col-md-3 d-flex align-items-center justify-content-around">
                     <div class="form-group d-flex flex-column">
                         <label class="d-none">Total</label>
-                        <button class="btn w-100 mt-4">update</button>
+                        <button class="btn w-100 mt-4" id="update2">update</button>
                     </div>
                     <div class="form-group">
-                        <label for="numero1" class="crust">Total</label>
-                        <input type="number" id="numero1" class="form-control w-100" disabled>
+                        <label for="numero5" class="crust">Total</label>
+                        <input type="number" id="numero5" class="form-control w-100" disabled>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <h2>Pizza Delivery form</h2>
+                    <p>Quick Delvery at Ksh100</p>
                     <div class="d-flex">
                         <div class="form-group">
-                            <label for="numero4" class="crust">Name:</label>
-                            <input type="text" id="numero4" class="form-control w-100" disabled>
+                            <label for="userName" class="crust">Name:</label>
+                            <input type="text" id="userName" class="form-control w-100">
                         </div>
                         <div class="form-group">
-                            <label for="numero5" class="crust">Address:</label>
-                            <input type="number" id="numero5" class="form-control w-100" disabled>
+                            <label for="userAddress" class="crust">Location:</label>
+                            <input type="text" id="userAddress" class="form-control w-100">
                         </div>
                         <div class="form-group">
-                            <label for="numero6" class="crust">Tel:</label>
-                            <input type="number" id="numero6" class="form-control w-100" disabled>
+                            <label for="userTel" class="crust">Tel:</label>
+                            <input type="text" id="userTel" class="form-control w-100">
                         </div>
                     </div>
-                    <button class="btn w-100 mt-2">Submit</button>
+                    <p id="userDetails"></p>
+                    <button class="btn w-100 mt-2" id="contactDet">Submit Details</button>
                 
                 </div>
             </div>
@@ -122,18 +127,19 @@
                 <div class="col-md-3 d-flex flex-column align-items-center ">
                     <h3>Pizza base</h3>
                     <h2 id="text3"></h2>
-                    <label for="numero" class="crust">need more?</label>
-                    <input type="number" id="numero" class="form-control w-100">
+                    <p id="basePrice"></p>
+                    <label for="baseQuantity" class="crust" >need more?</label>
+                    <input type="number" class="form-control w-25" id="baseQuantity" value="1">
                     
                 </div>
                 <div class="col-md-3 d-flex align-items-center justify-content-around">
                     <div class="form-group d-flex flex-column">
                         <label class="d-none">Total</label>
-                        <button class="btn w-100 mt-4">update</button>
+                        <button class="btn w-100 mt-4" id="update3">update</button>
                     </div>
                     <div class="form-group">
-                        <label for="numero1" class="crust">Total</label>
-                        <input type="number" id="numero1" class="form-control w-100" disabled>
+                        <label for="crustBase" class="crust">Total</label>
+                        <input type="number" id="crustBase" class="form-control w-100" disabled>
                     </div>
                 </div>
                 <div class="col-md-2"></div>
@@ -146,12 +152,12 @@
                     <h1>Grand Total</h1>
                 </div>
                 <div class="col-md-3 d-flex flex-column align-items-end">
-                    <label for="numero2" class="crust">Grand Total</label>
-                    <input type="number" id="numero2" class="form-control w-75" disabled>
+                    <label for="grandTotal" class="crust">Grand Total</label>
+                    <input type="number" id="grandTotal" class="form-control w-75" disabled>
                    
                 </div>
                 <div class="col-md-4 d-flex flex-column align-items-center">
-                    <button class="btn w-50">Checkout</button>
+                    <button class="btn w-50" id="checkOut">Checkout</button>
                 </div>
             </div>
 
@@ -169,7 +175,7 @@
 
 
         </div>
-        <form>
+        <form id="mikasa">
             <div class="row text-white text-center">
                 <h2>Pizza Size</h2>
                 <div class="col-md-8 d-flex justify-content-evenly">
@@ -195,7 +201,7 @@
                     <h3 class="crust">Select Pizza size</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, distinctio.</p>
                     <label for="crest" class="crust">Choose pizza size</label>
-                    <select class="form-select my-1" name="crest" id="crest">
+                    <select class="form-select my-1" name="crest" id="pSize">
                         <option selected>choose pizza size ...</option>
                         <option value="small">Small</option>
                         <option value="medium">Medium</option>
