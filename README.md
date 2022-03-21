@@ -40,7 +40,7 @@
  code .
  ``
 
-[Go Back to the top](#Delani_studio)
+[Go Back to the top](#KatanaRistorante)
 
 ## BDD(behaviour driven development)
 
@@ -89,7 +89,7 @@ git push origin
 * create a pull request
 
 
-[Go Back to the top](#Delani_studio)
+[Go Back to the top](#KatanaRistorante)
 
 ## Bugs
 <p>if you encounter any bugs in the code, click <a href="https:https://github.com/kniveskatana/KatanaRistorante/issues">here</a> your assistance will be valued
@@ -98,7 +98,7 @@ git push origin
 <p> If you encounter any problems running this Website, please reach out to me via email @joan.deng@student.moringaschool.com .</p>
 
 ## live link
-* [Delani_studio](https://kniveskatana.github.io/Delani_studio/)
+* [KatanaRistorante](https://kniveskatana.github.io/KatanaRistorante/)
 
 ## Copyright and Licence
 
@@ -124,4 +124,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Go Back to the top](#Delani_studio)
+[Go Back to the top](#KatanaRistorante)
